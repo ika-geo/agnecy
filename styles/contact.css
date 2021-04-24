@@ -1,0 +1,268 @@
+.contact{
+    position: relative;
+}
+
+.contact .wrap{
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+@media screen and (max-width: 768px){
+    .contact .wrap{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .contact .wrap{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+
+.contact__title{
+    font-size: 38px;
+    font-family: "OpenSans", sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+}
+
+@media screen and (max-width: 768px){
+    .contact__title{
+        margin: 0 auto 30px auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .contact__title{
+        font-size: 35px;
+    }
+}
+
+.contact__text{
+    font-size: 14px;
+    font-family: "Myriad Pro", sans-serif;
+    color: rgba(0, 0, 0, 0.702);
+    line-height: 1.75;
+    margin-bottom: 62px;
+    max-width: 735px;
+}
+
+@media screen and (max-width: 425px){
+    .contact__text{
+        margin-bottom: 30px;
+    }
+}
+
+
+.contact__line{
+    background-color: rgb(255, 45, 45);
+    width: 132px;
+    height: 3px;
+    margin-bottom: 75px;
+}
+
+@media screen and (max-width: 425px){
+    .contact__line{
+        margin: 0 auto 30px auto;
+    }
+}
+
+
+                    /*input*/
+
+.contactInfo__contact{
+    width: 735px;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+
+@media screen and (max-width: 1023px) {
+    .contactInfo__contact{
+        margin-bottom: 20px;
+        margin-right: 0;
+        width: 80%;
+    }
+}
+
+
+
+.contactInfo__contact__input{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 425px) {
+    .contactInfo__contact__input{
+        flex-direction: column;
+    }
+}
+
+
+.contactInfo__contact__input input:first-child{
+    margin-right: 10px;
+}
+
+
+
+                    /*input*/
+
+
+.contactInfo__contact input{
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgb(229, 229, 229);
+    width: 339px;
+    height: 69px;
+    font-size: 12px;
+    font-family: "OpenSans", sans-serif;
+    line-height: 1.878;
+    padding-left: 40px;
+    border: none;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px){
+    .contactInfo__contact input{
+        width: 45%;
+    }
+}
+
+
+@media screen and (max-width: 425px){
+    .contactInfo__contact input{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+.contactInfo__contact textarea{
+    border-radius: 10px;
+    background-color: rgb(229, 229, 229);
+    width: 100%;
+    height: 249px;
+    margin-top: 48px;
+    margin-bottom: 50px;
+    padding-left: 40px;
+    border: none;
+    box-sizing: border-box;
+    padding-top: 36px;
+
+}
+
+@media screen and (max-width: 425px){
+    .contactInfo__contact textarea{
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+.contactInfo__contact input[name="submit"]{
+    border-radius: 5px;
+    background-color: rgb(255, 59, 59);
+    width: 100%;
+    height: 72px;
+    font-size: 12px;
+    font-family: "Myriad Pro", sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.892;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 425px){
+    .contactInfo__contact input[name="submit"]{
+        height: 55px;
+        border-radius: 7px;
+    }
+}
+
+
+.contactInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 1023px){
+    .contactInfo{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+.forLeft{
+    position: relative;
+}
+
+.contactInfo__info{
+    background-color: black;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1023px){
+    .contactInfo__info{
+        width: 80%;
+    }
+}
+
+
+
+.contactInfo__info__main{
+    padding: 10px;
+}
+
+
+.contactInfo__info__main h1{
+    font-size: 22px;
+    font-family: "Myriad Pro", sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    line-height: 1.892;
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 320px){
+    .contactInfo__info__main h1{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}
+
+
+.contactInfo__info__main p{
+    font-size: 16px;
+    font-family: "OpenSans", sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.75;
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 320px){
+    .contactInfo__info__main p{
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+}

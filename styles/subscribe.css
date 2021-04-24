@@ -1,0 +1,133 @@
+.subscribe{
+    background: url("../img/subscribe/1.jpg")center center no-repeat;
+}
+
+.subscribebackground{
+    background-color: rgba(0, 152, 90, 0.6);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+
+@media screen and (max-width: 768px){
+    .subscribebackground{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .subscribebackground{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+
+
+.subscribe__title{
+    font-size: 42px;
+    font-family: "Myriad Pro", sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px){
+    .subscribe__title{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .subscribe__title{
+        font-size: 33px
+    }
+}
+
+
+
+
+.subscribe__text{
+    font-size: 14.606px;
+    font-family: "Myriad Pro", sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.75;
+    margin-bottom: 70px;
+}
+
+@media screen and (max-width: 768px) {
+    .subscribe__text{
+        margin-bottom: 30px;
+    }
+}
+
+
+.subscribe form{
+    display: flex;
+}
+
+
+@media screen and (max-width: 768px) {
+    .subscribe form{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscribe form input:first-child{
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .subscribe form{
+        width: 100%;
+    }
+
+    .subscribe form input:first-child{
+        display: block;
+        width: 75%;
+    }
+}
+
+
+.subscribe__text__input {
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 50px;
+    font-size: 16px;
+    font-family: "OpenSans", sans-serif;
+    color: rgba(44, 44, 44, 0.702);
+    line-height: 1.5;
+    margin-right: 20px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border: none;
+}
+
+
+
+
+
+.subscribe__text__send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(255, 45, 45);
+    width: 150px;
+    height: 50px;
+    font-size: 12.682px;
+    font-family: "OpenSans", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.892;
+    cursor: pointer;
+    border: none;
+}

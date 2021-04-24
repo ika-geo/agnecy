@@ -1,0 +1,169 @@
+.skills .wrap{
+    display: flex;
+}
+
+
+@media screen and (max-width: 1194px){
+    .skills .wrap{
+        flex-direction: column;
+    }
+}
+
+
+
+
+.skills{
+    margin-top: 111px;
+}
+
+@media screen and (max-width: 768px){
+    .skills{
+        margin-top: 50px;
+    }
+}
+
+
+.skills__left{
+    max-width: 515px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+.skills__left__title{
+    font-size: 42px;
+    font-family: "Myriad Pro", sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    line-height: 1.31;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px){
+    .skills__left__title{
+        margin-bottom: 30px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .skills__left{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .skills__left__title{
+        font-size: 30px;
+    }
+
+    .skills__left__button{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+.skills__left__text{
+    font-size: 16px;
+    font-family: "Myriad Pro", sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.75;
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 768px){
+    .skills__left__text{
+        margin-bottom: 30px;
+    }
+}
+
+
+.skills__left__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    width: 223px;
+    height: 51px;
+    font-size: 12.78px;
+    font-family: "Myriad Pro", sans-serif;
+    color: rgb(255, 45, 45);
+    line-height: 1.878;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.skills__left__button:hover{
+    color: white;
+    background-color: red;
+    transition-duration: 0.2s;
+}
+
+.skills_right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px){
+    .skills_right{
+        justify-content: space-around;
+    }
+}
+
+
+.skills_right>div{
+    max-width: 275px;
+    margin-right: 15px;
+}
+
+
+
+
+.skills_right>div>img{
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px){
+    .skills_right>div>img{
+        margin-bottom: 20px;
+    }
+}
+
+
+.skills_right>div>h1{
+    font-size: 27px;
+    font-family: "Myriad Pro", sans-serif;
+    color: rgba(0, 0, 0, 0.702);
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.skills_right>div>p{
+    font-size: 16px;
+    font-family: "Myriad Pro", sans-serif;
+    color: rgba(0, 0, 0, 0.702);
+    line-height: 1.75;
+    margin-bottom: 50px;
+}
+
+.skills hr{
+    background-color: #ececec;
+    width: 100%;
+    height: 3px;
+    border: none;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .skills hr{
+        margin-top: 20px;
+    }
+}
+
