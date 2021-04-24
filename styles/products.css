@@ -109,17 +109,21 @@
 }
 
 @media screen and (max-width: 425px){
-    .products__list .active{
-        width: 80%;
+    .products__list img{
+        width: 95%;
         height: auto;
     }
 }
 
-
-
 .products__list img:hover{
     transform: scale(1.05);
     transition-duration: 0.2s;
+}
+
+@media screen and (max-width: 425px){
+    .products__list img:hover{
+        transform: none;
+    }
 }
 
 
@@ -129,8 +133,9 @@
     z-index: 2;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
     .products__list .active{
-        transform: scale(1.05) !important;
+        transform: scale(1.1) !important;
     }
 }
+
