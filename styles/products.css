@@ -108,6 +108,13 @@
     transition-duration: 0.2s;
 }
 
+@media screen and (max-width: 425px){
+    .products__list .active{
+        width: 80%;
+        height: auto;
+    }
+}
+
 
 
 .products__list img:hover{
