@@ -155,6 +155,7 @@
     border: none;
     box-sizing: border-box;
     padding-top: 36px;
+    resize: none;
 
 }
 
